@@ -12,7 +12,7 @@ public class StringController {
 
     @GetMapping("/")
     public String hello() {
-        return "Hello please check github: ";
+        return "Hello please check github: https://github.com/dausei/webAss1";
     }
 
     @GetMapping("/random")
